@@ -1,0 +1,46 @@
+.students
+    font-family: 'Roboto', sans-serif
+
+    &-block
+        padding-top: 31px
+        padding-bottom: 50px
+    &__title
+        margin-bottom: 25px
+
+        display: block
+        text-align: center
+        font-size: 34px
+    &__cards
+        display: flex
+        justify-content: space-between
+        flex-wrap: wrap
+    &__card
+        max-width: 271px
+        text-align: center
+.card
+
+    &__img
+        border-radius: 100px
+        margin-bottom: 46px
+        height: 200px
+        width: 200px
+        box-shadow: 0 0 15px rgba(0,0,0,0.5)
+    &__title
+        font-size: 22px
+        text-align: center
+
+        &::after
+            content: ''
+            width: 99px
+            height: 1px
+            background-color: #fa0606
+            display: block
+
+            transform: translateX(88%)
+
+            margin-top: 40px
+            margin-bottom: 20px
+            left: 50px
+
+    &__content
+        font-size: 18px
